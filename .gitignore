@@ -1,0 +1,24 @@
+# Environment
+backend/.env
+.env
+.env.*
+!.env.example
+
+# Python
+backend/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Assets (use frontend/public copy)
+testimage(1).jpg
+
+# Build / cache
+dist/
+*.log
+.DS_Store
